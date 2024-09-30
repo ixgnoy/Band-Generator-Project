@@ -2,7 +2,7 @@ import express from "express";
 import bodyParser from "body-parser";
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 //Step 3 - Make the styling show up.
 //Hint 1: CSS files are static files!
